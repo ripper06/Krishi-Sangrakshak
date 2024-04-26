@@ -1,0 +1,18 @@
+<div class="select-role">
+    <div class="card" style="width: 18rem; height: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Donate your leftovers</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Your leftovers can be treasure for someone else!</h6>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, exercitationem.</p>
+        <a href="./submitfoods.html" class="food-click">Donate Food<s/a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; height: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Search for foods near you</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Explore foods near you</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, obcaecati.</p>
+        <a href="./get-food.html" class="food-click">Get Foods</a>
+      </div>
+    </div>
+  </div>
