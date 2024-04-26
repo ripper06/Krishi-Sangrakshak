@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body, html{
+    height: 100;
+    width: 100;
+}
+ 
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+.content-container-div{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding: 2.5rem;
+    width: 45rem;
+    background-color: rgba(255, 255, 255, 0.488);
+    backdrop-filter: blur(20px);
+    box-shadow: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    margin-top: 5rem;
+    height: 35rem;
+    border-radius: 17px;
+    
+}
+
+
+.left-content{
+    width: 18rem;
+    border-radius: 10px;
+ 
+}
+.form-cont{
+    width: 19rem;
+}
+
+.form-cont, .geoLoaderStyle{
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.771);
+    box-shadow: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    
+}
+
+.geoLoaderStyle{
+    margin-top: 1rem;
+    padding-right: 3rem;
+    height: 20rem;
+    width: 19rem;
+}
+
+.showLocationStyle{
+    animation: Fade-ani 500ms;
+}
+
+.showLocationStyle > p{
+    line-height: 1.6rem;
+}
+
+#location{
+    border-radius: 12px;
+    border-style: dashed;
+    padding: 0.3rem;
+}
+
+.showContImg{
+    margin-left: 15rem;
+    border-radius: 10px;
+    height: 4rem;
+    width: 5rem;
+}
+
+
+.show-temp-div{
+    margin-left: 10px;
+    padding: 2rem;
+    border-radius: 10px;
+    height: 31rem;
+    width: 23rem;
+    background-color: rgba(255, 255, 255, 0.771);
+    box-shadow: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+
+.show-temp{
+    animation: Fade-ani 500ms;
+}
+
+
+@keyframes Fade-ani {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.submit-btn{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    background-color: #14b8a6;
+    color: white;
+}

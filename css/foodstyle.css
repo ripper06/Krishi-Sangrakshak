@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+.container{
+    margin: 2rem auto;
+}
+
+.container .title{
+    text-align: center;
+    color: #fbbf24;
+    margin-bottom: 3rem;
+}
+
+.container .form{
+    background-color: #fffbeb;
+    width: 33rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.container .form :focus{
+    background-color: #fef3c7;
+}
+
+.form input{
+    flex: 1;
+    padding: 0.7rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.form .btn{
+    padding: 0.7rem;
+    background-color: #f59e0b;
+    color: #fff1f2;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.lists{
+    padding-left: 5rem;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.food{
+    display: flex;
+    width: 30rem;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background-color: #fef9c3;
+    margin-top: 0.5rem;
+    padding: 2rem;  
+    border-radius: 10px;
+    height: 5rem;
+}
+
+.food span{
+    cursor: pointer;
+    width: 70px;
+    height: 60px;
+    
+    padding: 0.4rem;
+    border-radius: 10px;
+
+}
+
+
+.food span:hover{
+    background-color: #fcd34d;
+
+}
